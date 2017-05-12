@@ -18,3 +18,4 @@ services:
       dockerfile: app.docker
     volumes:
       - ./blog:/var/www
+      - ./nginx_log:/var/log/nginx
